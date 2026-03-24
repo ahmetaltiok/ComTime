@@ -6,22 +6,22 @@
 
 ## Özellikler
 
-### 🕐 Saat Modu
+### Saat Modu
 - Büyük dijital saat kutucukları
 - Yukarıdan aşağı kayan animasyonlu rakam geçişi
 - Türkiye saati (UTC+3) ve Türkçe tarih
 
-### ⏱️ Kronometre Modu
+### Kronometre Modu
 - Büyük dijital kutucuklarla dakika:saniye.salise
 - Başlat / Durdur / Devam
 - Tur kayıtları
 
-### ⏳ Sayaç (Timer) Modu
+### Sayaç Modu
 - Saat / Dakika / Saniye ile süre belirle
 - Büyük dijital kutucuklarla geri sayım
 - Süre dolunca sesli uyarı
 
-### 🎨 Genel
+### Genel
 - Açık / Koyu tema (tek tıkla geçiş)
 - Modlar arası animasyonlu sola kayma geçişi
 - Pencere boyutuna otomatik uyum
