@@ -1,0 +1,43 @@
+{
+  "name": "comtime",
+  "version": "1.0.0",
+  "description": "ComTime - Masaüstü Saat, Kronometre & Sayaç",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "author": "ComTime",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.comtime.clock",
+    "productName": "ComTime",
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ComTime",
+      "artifactName": "ComTime-Setup-${version}.exe"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "icon.ico",
+      "icon.png"
+    ]
+  }
+}
